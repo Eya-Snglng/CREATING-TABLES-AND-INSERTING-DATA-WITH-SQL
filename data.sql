@@ -35,13 +35,13 @@ INSERT INTO Groups (GroupID, GroupName, CreatedBy, DateAdded) VALUES
 -- Insert 10 records into Posts Table
 INSERT INTO Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) VALUES 
 (1,'Help! Im struggling with the concept of derivatives in calculus. Can anyone explain it in simpler terms?', 1, false, true, 1, '2024-02-09'),
-(2,'Im having trouble understanding the ethical implications of AI. Any recommendations for articles or books on the topic?', 9, true, false, 2, '2024-04-25'),
+(2,'Im having trouble understanding the ethical implications of AI. Any recommendations for articles or books on the topic?', 9, false, false, 2, '2024-04-25'),
 (3,'Does anyone have tips for writing a compelling thesis statement? Im feeling stuck on my research paper.', 4, false, true, 3, '2024-05-19'),
 (4,'Im applying for internships but getting rejected left and right. Any advice on how to improve my resume and cover letters?', 5, true, false, 4, '2024-05-10'),
 (5,'Im feeling overwhelmed by the workload. How do you guys manage your time effectively?', 2, true, false, 5, '2024-02-27'),
 (6,'Im considering a career change. Has anyone gone through this process and can share their experiences?', 3, false, true, NULL, '2024-06-08'),
 (7,'Im struggling with imposter syndrome. Does anyone else feel like they dont belong here?', 7, false, true, NULL, '2023-05-30'),
-(8,'Im worried about finding a job after graduation. Any advice on networking and job hunting?', 10, true, false, 2, '2024-01-31'),
+(8,'Im worried about finding a job after graduation. Any advice on networking and job hunting?', 10, false, false, 2, '2024-01-31'),
 (9,'Im not sure which major to choose. What are your thoughts on Nursing?', 6, false, true, 5, '2024-08-01'),
 (10,'Im planning to study abroad next semester. Does anyone have recommendations for programs?', 9, true, false, NULL, '2024-07-28');
 
